@@ -1,0 +1,11 @@
+Se cifraron dos archivos, codigo.c y cancion.mp3. El nombre de cada archivo
+describe lo que contiene.
+
+ARCHIVO ORIGINAL    CLAVE                     ALGORITMO      RESULTADO
+cancion.mp3         cancion_clave_afin        Afín           cancion.mp3.afin
+cancion.mp3         cancion_clave_vigenere    Vigenere       cancion.mp3.vigenere
+codigo.c            codigo_clave_afin         Afín           codigo.c.afin
+codigo.c            codigo_clave_mezclado     Alf. mezclado  codigo.c.mezclado
+codigo.c            codigo_clave_vigenere     Vigenere       codigo.c.vigenere
+
+Además hay tres claves que deben producir un error al intentar usarlas.

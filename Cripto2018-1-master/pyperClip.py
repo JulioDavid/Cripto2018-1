@@ -1,27 +1,4 @@
-"""
-Pyperclip
 
-A cross-platform clipboard module for Python. (only handles plain text for now)
-
-
-Usage:
-  import pyperclip
-  pyperclip.copy('The text to be copied to the clipboard.')
-  spam = pyperclip.paste()
-
-  if not pyperclip.copy:
-    print("Copy functionality unavailable!")
-
-On Windows, no additional modules are needed.
-On Mac, the module uses pbcopy and pbpaste, which should come with the os.
-On Linux, install xclip or xsel via package manager. For example, in Debian:
-sudo apt-get install xclip
-
-Otherwise on Linux, you will need the gtk or PyQt4 modules installed.
-
-gtk and PyQt4 modules are not available for Python 3,
-and this module does not work with PyGObject yet.
-"""
 __version__ = '1.5.27'
 
 import platform
