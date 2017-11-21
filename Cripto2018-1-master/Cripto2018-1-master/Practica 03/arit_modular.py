@@ -31,6 +31,18 @@ def inverso_mod(a, N):
 
 def potencia_mod(a, b, N):
     ''' Calcula a^b mod N '''
+     x = a
+    temp = 1
+    while b>0 do:
+        if b & 2 != 0:
+            temp = temp*x % N
+            b = b-1
+        
+        x = x*x % N
+        b = b/2    
+        pass
+    pass
+    return t 
     pass
 
 
